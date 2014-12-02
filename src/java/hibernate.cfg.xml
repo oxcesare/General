@@ -6,5 +6,10 @@
     <property name="hibernate.connection.url">jdbc:sqlserver://siesux;databaseName=sinuxv2</property>
     <property name="hibernate.connection.username">sa</property>
     <property name="hibernate.connection.password">pxrd99wnUX2014</property>
+    
+    
+     <mapping resource="Modelo/Profesor.hbm.xml"/>
+     <mapping class="Modelo.Profesor"/>
+        
   </session-factory>
 </hibernate-configuration>

@@ -25,6 +25,10 @@
         <servlet-name>Controla</servlet-name>
         <servlet-class>Controlador.Controla</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>HelloController</servlet-name>
+        <servlet-class>com.companyname.springapp.web.HelloController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.htm</url-pattern>
@@ -36,6 +40,10 @@
     <servlet-mapping>
         <servlet-name>Controla</servlet-name>
         <url-pattern>/Controla</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HelloController</servlet-name>
+        <url-pattern>/HelloController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
