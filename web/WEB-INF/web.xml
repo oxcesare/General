@@ -27,7 +27,7 @@
     </servlet>
     <servlet>
         <servlet-name>HelloController</servlet-name>
-        <servlet-class>com.companyname.springapp.web.HelloController</servlet-class>
+        <servlet-class>com.companyname.springapp.web.InventoryController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
